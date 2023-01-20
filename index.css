@@ -1,51 +1,6 @@
-@keyframes header_appear {
-    from {
-        transform: translateY(-100%);
-        opacity: 0;
-    }
-    to {
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
-
-@keyframes card_appear {
-    from {
-        transform: translateX(-100%);
-        opacity: 0;
-    }
-    to {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
-@keyframes bottom_appear {
-    from {
-        transform: translateY(100%);
-        opacity: 0;
-    }
-    to {
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
-
 a {
     color: inherit !important;
     text-decoration: none !important;
-}
-
-.header {
-    animation: header_appear 1s ease-in-out;
-}
-
-.card {
-    animation: card_appear 1s ease-in-out;
-}
-
-.bottom {
-    animation: bottom_appear 1s ease-in-out;
 }
 
 .header h2 {
