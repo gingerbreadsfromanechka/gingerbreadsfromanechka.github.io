@@ -37,6 +37,10 @@ a {
     border-radius: 5em !important;
 }
 
+.carousel-inner {
+    border-radius: 4em;
+}
+
 .card img {
     border-radius: 4em;
 }
@@ -90,4 +94,19 @@ a {
 
 .bottom img {
     width: 20em;
+}
+
+.carousel-indicators button {
+    width: 7em !important;
+    height: 1em !important;
+}
+
+.carousel-control-prev-icon {
+    width: 8em !important;
+    height: 8em !important;
+}
+
+.carousel-control-next-icon {
+    width: 8em !important;
+    height: 8em !important;
 }
